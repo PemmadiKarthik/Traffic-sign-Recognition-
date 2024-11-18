@@ -51,5 +51,3 @@ Feel free to explore the application and contribute to its enhancement and impro
 ## Contributions
 Contributions to this project are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for both non-commercial and commercial purposes.
