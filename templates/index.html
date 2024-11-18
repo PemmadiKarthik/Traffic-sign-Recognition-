@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Sign Recognition</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .container { max-width: 600px; margin: auto; }
+        img { max-width: 100%; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Traffic Sign Recognition</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <button type="submit">Upload and Predict</button>
+        </form>
+
+        {% if prediction %}
+            <h2>Prediction: {{ prediction }}</h2>
+            <img src="{{ image_path }}" alt="Uploaded Image">
+        {% endif %}
+    </div>
+</body>
+</html>
